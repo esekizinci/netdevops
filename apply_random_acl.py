@@ -1,3 +1,6 @@
+#bu script cisco asa cihazlari uzerine tek tek baglanip 25 satirdan olursan random access-list olusturur
+#ACL acildiktan sonra nameif ile varolan interfaceleri listeler ve hangi interface'e uygulamak istedigini sorar.
+
 from netmiko import ConnectHandler
 from inventory import load_inventory
 from random import randint, choice

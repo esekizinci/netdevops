@@ -1,3 +1,5 @@
+#bu script cisco_asa kategorisinde var olan inventory dosyasindan tek tek cihazlara baglanir ve kurallarin hitcount'larini ceker.
+
 from netmiko import ConnectHandler
 from inventory import load_inventory
 import re

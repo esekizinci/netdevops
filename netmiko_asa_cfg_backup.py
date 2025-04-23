@@ -1,3 +1,5 @@
+#bu cihaz asa'nin backup'ini alir.
+
 from netmiko import ConnectHandler
 from inventory import load_inventory, load_ftp_info
 from ftplib import FTP

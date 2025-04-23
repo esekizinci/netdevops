@@ -1,3 +1,5 @@
+#Bu script acl'leri ekrana yazdirir ve belirledigimiz numaraya gore kural icerisinden ilgili satiri siler.
+
 from netmiko import ConnectHandler
 from inventory import load_inventory
 import re
